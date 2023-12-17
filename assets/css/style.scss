@@ -1,0 +1,282 @@
+$bg-body: #eef2f8;
+$bg-content: #f2f2f2;
+$color-grey: #2e2a2a;
+$main-color: #ff471a;
+$white-color: #fff;
+$relative: relative;
+$sticky: sticky;
+$auto: auto;
+$none: none;
+$size_40: 40px;
+$size_45: 45px;
+$size_50: 50px;
+$size_30: 30px;
+$size_25: 25px;
+$size_20: 20px;
+$size_10: 10px;
+$size_22: 22px;
+$size_16: 16px;
+$size_18: 18px;
+$size_18rem: -20px;
+$size_19: 19px;
+$margin-top: 100px;
+$percent_100: 100%;
+$view_100: 100vh;
+$percent_45: 45%;
+$percent_50: 50%;
+$size_60: 60px;
+$weight: 700px;
+$size_780: 780px;
+
+.container_padding {
+    padding-left: $size_40;
+    padding-right: $size_40;
+    padding-top: $size_50;
+    padding-bottom: $size_30;
+}
+
+.bg-danger {
+    background-color: $main-color !important;
+    color: $main-color !important;
+}
+
+.white__color {
+    color: $white-color !important;
+}
+
+.text-danger {
+    color: $main-color !important;
+}
+
+.btn-danger {
+    background-color: $main-color !important;
+}
+
+.border-radius {
+    border-radius: $size_20 !important;
+}
+
+@media screen and (max-width: 780px) {
+    .container_padding {
+        padding-left: $size_20;
+        padding-right: $size_20;
+        padding-top: $size_30;
+        padding-bottom: $size_20;
+    }
+}
+
+/* hero section */
+.header__color {
+    background-color: $bg-content;
+    margin-top: $margin-top;
+}
+
+.hero__title {
+    font-size: $size_60;
+}
+
+.hero__text {
+    font-size: $size_20;
+}
+
+.position-absolute {
+    margin-top: $size_18rem;
+}
+
+@media screen and (max-width: 780px) {
+    .hero__title {
+        font-size: $size_30;
+    }
+}
+
+/* statistics */
+.statistics__section {
+    background-color: $bg-content;
+}
+
+.stat-txt {
+    line-height: $size_10 !important;
+}
+
+.stat__text1 {
+    font-size: $size_50;
+    font-weight: $weight;
+}
+
+.stat__text2 {
+    font-size: $size_22;
+}
+
+/* about us */
+
+.about__hd {
+    font-size: $size_45;
+}
+
+.about__txt {
+    font-size: $size_19;
+}
+
+@media screen and (max-width: 780px) {
+    .about__hd {
+        font-size: $size_22;
+    }
+
+    .about__txt {
+        font-size: $size_16;
+    }
+}
+
+/* our mission */
+
+.mission__hd {
+    font-size: $size_45;
+}
+
+.mission__txt {
+    font-size: $size_19;
+}
+
+@media screen and (max-width: 780px) {
+    .mission__hd {
+        font-size: $size_22;
+    }
+
+    .mission__txt {
+        font-size: $size_16;
+    }
+}
+
+/* journey */
+.journey__section {
+    background-color: $bg-content;
+    height: $view_100;
+    position: $relative;
+    overflow-y: $auto;
+}
+
+.journey__section::-webkit-scrollbar {
+    display: $none;
+}
+
+.journey__hd {
+    font-size: $size_45;
+}
+
+.journey__txt {
+    font-size: $size_19;
+}
+
+.sticky {
+    position: $sticky;
+    /* top: auto; */
+}
+
+/* 
+.journey__scroll {
+  position: sticky;
+  height: 100vh;
+  overflow-y: scroll;
+} */
+
+@media screen and (max-width: 780px) {
+    .journey__section {
+        background-color: $bg-content;
+        height: $auto;
+    }
+
+    .journey__hd {
+        font-size: $size_22;
+    }
+
+    .journey__txt {
+        font-size: $size_16;
+    }
+}
+
+/* partner section */
+.partner_ct {
+    width: $percent_50;
+}
+
+.partner__hd {
+    /* font-size: 50px; */
+    font-weight: $weight;
+}
+
+.partner__txt {
+    font-size: $size_20;
+}
+
+@media screen and (max-width: 780px) {
+    .partner_ct {
+        width: $percent_100;
+    }
+}
+
+/* press */
+.press__container {
+    background-color: $bg-content;
+}
+
+.press__ct {
+    width: $percent_50;
+}
+
+.press__items {
+    width: $percent_45;
+}
+
+.press__hd {
+    font-size: $size_45;
+    font-weight: $weight;
+}
+
+.press__txt {
+    font-size: $size_19;
+}
+
+.press__ithd {
+    font-weight: $weight;
+}
+
+.press__read {
+    font-size: $size_20;
+}
+
+@media screen and (max-width: 780px) {
+    .press__ct {
+        width: $percent_100;
+    }
+
+    .press__items {
+        width: $percent_100;
+    }
+
+    .press__hd {
+        font-size: $size_25;
+    }
+
+    .press__txt {
+        font-size: $size_16;
+    }
+}
+
+/* Mobile app section */
+.mobile__content {
+    width: $percent_50;
+    font-size: $size_18;
+}
+
+@media screen and (max-width: 780px) {
+    .mobile__content {
+        width: $percent_100;
+    }
+}
+
+/* footer */
+.footer__link li a {
+    font-size: $size_20;
+    text-decoration: $none;
+    color: $color-grey;
+}

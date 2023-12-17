@@ -1,0 +1,244 @@
+.container_padding {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.bg-danger {
+  background-color: #ff471a !important;
+  color: #ff471a !important;
+}
+.text-danger {
+  color: #ff471a !important;
+}
+.btn-danger {
+  background-color: #ff471a !important;
+}
+
+.white__color {
+  color: #fff !important;
+}
+
+.border-radius {
+  border-radius: 20px !important;
+}
+
+@media screen and (max-width: 780px) {
+  .container_padding {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+/* hero section */
+.header__color {
+  background-color: #f2f2f2;
+  margin-top: 100px;
+}
+.hero__title {
+  font-size: 60px;
+}
+.hero__text {
+  font-size: 20px;
+}
+
+.position-absolute {
+  margin-top: -18rem;
+}
+
+@media screen and (max-width: 780px) {
+  .hero__title {
+    font-size: 30px;
+  }
+}
+
+/* statistics */
+.statistics__section {
+  background-color: #f2f2f2;
+}
+
+.stat-txt {
+  line-height: 10px !important;
+}
+
+.stat__text1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.stat__text2 {
+  font-size: 22px;
+}
+
+/* about us */
+
+.about__hd {
+  font-size: 45px;
+}
+
+.about__txt {
+  font-size: 19px;
+}
+
+@media screen and (max-width: 780px) {
+  .about__hd {
+    font-size: 22px;
+  }
+
+  .about__txt {
+    font-size: 16px;
+  }
+}
+
+/* our mission */
+
+.mission__hd {
+  font-size: 45px;
+}
+
+.mission__txt {
+  font-size: 19px;
+}
+
+@media screen and (max-width: 780px) {
+  .mission__hd {
+    font-size: 22px;
+  }
+
+  .mission__txt {
+    font-size: 16px;
+  }
+}
+
+/* journey */
+.journey__section {
+  background-color: #f2f2f2;
+  height: 100vh;
+  position: relative;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.journey__section::-webkit-scrollbar {
+  display: none;
+}
+
+.journey__hd {
+  font-size: 45px;
+}
+
+.journey__txt {
+  font-size: 19px;
+}
+
+.sticky {
+  position: sticky;
+  /* top: auto; */
+}
+/* 
+.journey__scroll {
+  position: sticky;
+  height: 100vh;
+  overflow-y: scroll;
+} */
+
+@media screen and (max-width: 780px) {
+  .journey__section {
+    background-color: #f2f2f2;
+    height: auto;
+  }
+
+  .journey__hd {
+    font-size: 22px;
+  }
+
+  .journey__txt {
+    font-size: 16px;
+  }
+}
+
+/* partner section */
+.partner_ct {
+  width: 50%;
+}
+.partner__hd {
+  /* font-size: 50px; */
+  font-weight: 700;
+}
+
+.partner__txt {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 780px) {
+  .partner_ct {
+    width: 100%;
+  }
+}
+
+/* press */
+.press__container {
+  background-color: #f2f2f2;
+}
+.press__ct {
+  width: 50%;
+}
+
+.press__items {
+  width: 45%;
+}
+
+.press__hd {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.press__txt {
+  font-size: 19px;
+}
+
+.press__ithd {
+  font-weight: 700;
+}
+
+.press__read {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 780px) {
+  .press__ct {
+    width: 100%;
+  }
+  .press__items {
+    width: 100%;
+  }
+
+  .press__hd {
+    font-size: 25px;
+  }
+
+  .press__txt {
+    font-size: 16px;
+  }
+}
+
+/* Mobile app section */
+.mobile__content {
+  width: 50%;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 780px) {
+  .mobile__content {
+    width: 100%;
+  }
+}
+
+/* footer */
+.footer__link li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #2e2a2a;
+}
